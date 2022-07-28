@@ -79,6 +79,17 @@ enum SunmiBarcodeTextPos {
 ///*SunmiFontSize*
 ///Enum to set font in the printer
 enum SunmiFontSize {
+  FS25,
+  FS26,
+  FS27,
+  FS28,
+  FS29,
+  FS30,
+  FS31,
+  FS32,
+  FS33,
+  FS34,
+  FS35,
   XS,
   SM,
   MD,

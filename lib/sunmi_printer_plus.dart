@@ -401,6 +401,39 @@ class SunmiPrinter {
   static Future<void> setFontSize(SunmiFontSize _size) async {
     int _fontSize = 24;
     switch (_size) {
+      case SunmiFontSize.FS25:
+        _fontSize = 25;
+        break;
+      case SunmiFontSize.FS26:
+        _fontSize = 26;
+        break;
+      case SunmiFontSize.FS27:
+        _fontSize = 27;
+        break;
+      case SunmiFontSize.FS28:
+        _fontSize = 28;
+        break;
+      case SunmiFontSize.FS29:
+        _fontSize = 29;
+        break;
+      case SunmiFontSize.FS30:
+        _fontSize = 30;
+        break;
+      case SunmiFontSize.FS31:
+        _fontSize = 31;
+        break;
+      case SunmiFontSize.FS32:
+        _fontSize = 32;
+        break;
+      case SunmiFontSize.FS33:
+        _fontSize = 33;
+        break;
+      case SunmiFontSize.FS34:
+        _fontSize = 34;
+        break;
+      case SunmiFontSize.FS35:
+        _fontSize = 35;
+        break;  
       case SunmiFontSize.XS:
         _fontSize = 14;
         break;
